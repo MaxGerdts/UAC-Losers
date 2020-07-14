@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="">
-      QUE RICO EL TUSIIIIIIIII EL POPPERRRR LA MARIHUANAAAA HIJUEPUTAAAAAAA
+      QUIEROO PICHAAAAAA PICHA GRANDE
     </div>
 
   <script  src="assets/js/jquery-3.5.1.min.js"></script>
