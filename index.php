@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="">
-      que es lo ques
+      QUE RICO EL TUSIIIIIIIII EL POPPERRRR LA MARIHUANAAAA HIJUEPUTAAAAAAA
     </div>
 
   <script  src="assets/js/jquery-3.5.1.min.js"></script>
