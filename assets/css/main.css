@@ -1,4 +1,5 @@
 /* Base */
+/* Structure*/
 body{
   font-family: sans-serif;
   margin: 0;
@@ -16,9 +17,31 @@ body{
 .flex-wrap{
   flex-wrap: wrap;
 }
-.ul{
-  display: flex;
+.btn{
+  width: 100%;
+  max-width: 300px;
+  display: block;
+}
+.list{
   padding: 10px;
+  margin: 10px;
   list-style: none;
 }
-/* /. Base */
+.list-items{
+  padding: 10px;
+}
+.link{
+  text-decoration: none;
+}
+/* /.Structure*/
+
+/* Skin */
+
+.link-primary{
+  color: green;
+}
+.list-primary{
+  color: red;
+}
+/* /.Skin*/
+/* /.Base */

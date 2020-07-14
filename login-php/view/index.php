@@ -4,13 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- sampale la hoja de estilos 
-    <link rel="stylesheet" href="/UAC-Losers/assets/css/style.css" > -->
-    <script src="js/javasc.js"></script>
+    <link rel="stylesheet" href="../../assets/css/style.css">
     <title>Socialxxx</title>
 </head>
 <body>
-<div id="login-button"> 
+<div id="login-button">
         <!-- esto se va cambiar con una propia -->
   <img src="https://dqcgrsy5v35b9.cloudfront.net/cruiseplanner/assets/img/icons/login-w-icon.png">
   </img>
@@ -46,7 +44,7 @@
     <a href="#" class="orange-btn">Get new password</a>
 </form>
 </div>
-<!-- se supone que aqui va el js 
-<script src=""></script> -->
+<script  src="../../assets/js/jquery-3.5.1.min.js"></script>
+<script  src="../../assets/js/javasp.js"></script>
 </body>
 </html>
