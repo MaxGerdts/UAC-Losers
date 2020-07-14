@@ -1,0 +1,14 @@
+/* Base */
+*{
+  font-family: serif;
+}
+.container{
+  width: 100%;
+}
+.flex{
+  display: flex;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+/* /. Base */
