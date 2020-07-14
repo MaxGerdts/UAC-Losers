@@ -6,7 +6,6 @@ include '../entities/User.php';
 // Data Acess Object
 class UserDao extends Connection{
 
-
     protected static $cnx;
 
     private static function getConnection(){
@@ -30,7 +29,7 @@ class UserDao extends Connection{
           $result->bindParam(":password", $user->getPassword());
 
           $result->execute();
-          
+
           if (count($result->rowCount() > 0)){
               $rows = $result->fetch();
               if($rows["user"] == $user->getUser()

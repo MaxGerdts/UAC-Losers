@@ -1,8 +1,6 @@
 <?php
 
 class Connection{
-
-
     // Conexion a la base de datos :D
     public static function connect(){
         try{
@@ -13,7 +11,5 @@ class Connection{
             die($e->getMessage());
         }
     }
-
 }
-
 Connection::connect();
