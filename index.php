@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="">
-      Hola mundo
+      que es lo ques
     </div>
 
   <script  src="assets/js/jquery-3.5.1.min.js"></script>
