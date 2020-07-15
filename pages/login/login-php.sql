@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 14-07-2020 a las 20:17:12
+-- Tiempo de generación: 15-07-2020 a las 20:11:08
 -- Versión del servidor: 10.4.13-MariaDB
 -- Versión de PHP: 7.4.7
 
@@ -42,8 +42,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `user`, `email`, `password`, `privilege`, `registration_date`) VALUES
-(1, 'Saul', 'Meliodas', 'enrrique2110@hotmail.com', '1234', 1, '2020-07-14 16:36:00'),
-(2, 'Saul', 'Meliodas', 'enrrique2110@hotmail.com', '1234', 1, '2020-07-14 16:36:41');
+(1, 'Saul', 'Meliodas', 'enrrique2110@hotmail.com', '1234', 1, '2020-07-14 16:36:00');
 
 --
 -- Índices para tablas volcadas
@@ -53,7 +52,7 @@ INSERT INTO `users` (`id`, `name`, `user`, `email`, `password`, `privilege`, `re
 -- Indices de la tabla `users`
 --
 ALTER TABLE `users`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`,`user`,`email`);
 
 --
 -- AUTO_INCREMENT de las tablas volcadas

@@ -2,17 +2,19 @@
 
 include '../controller/ControllerUser.php';
 
+$result = array();
 
-if(isset($_POST["user"]) && isset($_POST["password"])) {
+if(isset($_POST["txtUser"]) && isset($_POST["txtPassword"])) {
 
     $txtUser = $_POST["txtUser"];
     $txtPassword = $_POST["txtPassword"];
 
+        $resultado = array("status" => "true");
+
     if(ControllerUser::login($txtUser, $txtPassword)) {
-            echo "logeado";
-
+           return print(json_encode($resultado));
     }
-
 }
 
-echo "No Registrado";
+$resultado = array("status" => "no es este false");
+return print(json_encode($resultado));

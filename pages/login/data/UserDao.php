@@ -25,15 +25,15 @@ class UserDao extends Connection{
 
           $result = self::$cnx->prepare($query);
           //Indicate -- column and value --
-          $result->bindParam(":user", $user->getUser());
-          $result->bindParam(":password", $user->getPassword());
+            $result->bindValue(":user", $user->getUser());
+            $result->bindValue(":password", $user->getPassword());
 
           $result->execute();
 
-          if (count($result->rowCount() > 0)){
+          if ($result->rowCount() > 0){
               $rows = $result->fetch();
               if($rows["user"] == $user->getUser()
-              && $rows["password"] == $user->getPasword()) {
+              && $rows["password"] == $user->getPassword()) {
                   return true;
               }
           }
