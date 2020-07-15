@@ -6,23 +6,35 @@
     <link rel="stylesheet" href="../assets/css/main.css">
   </head>
   <body>
-    <div class="container">
-      <div class="content">
-        <ul class="flex list list-primary">
-          <li class="list-items"><a class="link link-primary" href="#">Acerca de</a></li>
-          <li class="list-items">Salir</li>
-        </ul>
-        <input class="input input-primary" type="text" name="" value="">
-        <input class="input" type="text" name="" value="">
-        <p class="btn btn-md btn-primary">boton</p>
-        <span class="btn btn-md btn-primary">boton</span>
-        <input class="btn btn-md btn-primary" type="submit" name="" value="boton">
-        <a class="btn btn-md btn-primary link" href="#">Acerca de</a>
+    <div class="container container-primary flex">
+      <div class="content content-primary">
+        <table>
+          <thead>
+            <tr>
+              <th>sdaa</th>
+              <th>sdasda</th>
+              <th>sdaa</th>
+              <th>sdasda</th>
+              <th>sdaa</th>
+              <th>asdasadaadasd</th>
+            </tr>
+
+          </thead>
+          <tbody>
+            <tr>
+              <td>sada</td>
+              <td>asdad</td>
+              <td>sada</td>
+              <td>asdad</td>
+              <td>sada</td>
+              <td>sadasdad</td>
+
+            </tr>
+
+          </tbody>
+
+        </table>
       </div>
     </div>
-    <div class="container">
-      hola
-    </div>
-
   </body>
 </html>
