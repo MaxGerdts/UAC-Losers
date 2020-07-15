@@ -1,9 +1,11 @@
 /* Base */
 /* Structure*/
+*{
+  box-sizing: border-box;
+}
 body{
   font-family: sans-serif;
   margin: 0;
-  box-sizing: border-box;
 }
 .container{
   width: 100%;
@@ -17,10 +19,26 @@ body{
 .flex-wrap{
   flex-wrap: wrap;
 }
-.btn{
+.input{
+  display: block;
   width: 100%;
   max-width: 300px;
+  height: 50px;
+  padding: 5px 10px;
+  margin: 5px auto;
+}
+.btn{
   display: block;
+  width: 100%;
+  max-width: 200px;
+  min-height: 40px;
+  padding:  10px;
+  margin: 5px auto;
+  text-align: center;
+  cursor: pointer;
+}
+.link{
+  text-decoration: none;
 }
 .list{
   padding: 10px;
@@ -30,13 +48,24 @@ body{
 .list-items{
   padding: 10px;
 }
-.link{
-  text-decoration: none;
-}
+
 /* /.Structure*/
 
 /* Skin */
 
+.input-primary{
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #333;
+}
+.btn-primary{
+  font-size: 16px;
+  font-weight: 700;
+  color: #787878;
+  background: #ebebeb;
+  border-radius: 16px;
+  border: 1px solid #f9f9f9;
+}
 .link-primary{
   color: green;
 }
