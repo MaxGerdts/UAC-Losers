@@ -2,6 +2,8 @@
 
 include '../controller/ControllerUser.php';
 
+
+header('Content-type: application/json');
 $result = array();
 
 if(isset($_POST["txtUser"]) && isset($_POST["txtPassword"])) {
