@@ -8,6 +8,6 @@ class ControllerUser{
         $obj_user->setUser($user);
         $obj_user->setPassword($password);
 
-        return UsuarioDao::login($obj_user);
+        return UserDao::login($obj_user);
     }
 }

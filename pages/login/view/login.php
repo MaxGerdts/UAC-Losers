@@ -10,9 +10,7 @@
 <body>
 <div id="login-button">
         <!-- esto se va cambiar con una propia -->
-  <img src="https://dqcgrsy5v35b9.cloudfront.net/cruiseplanner/assets/img/icons/login-w-icon.png">
-  </img>
-</div>
+    <img src="https://dqcgrsy5v35b9.cloudfront.net/cruiseplanner/assets/img/icons/login-w-icon.png">
 <div id="container">
   <h1>Log In</h1>
   <span class="close-btn">
@@ -20,10 +18,11 @@
     <img src="https://cdn4.iconfinder.com/data/icons/miu/22/circle_close_delete_-128.png"></img>
   </span>
 
-  <form>
-    <input type="email" name="email" placeholder="E-mail">
-    <input type="password" name="pass" placeholder="Password">
+  <form action="validateCode.php" method="POST">
+    <input type="text" name="txtUser" id="user" autofocus required placeholder="User">
+    <input type="password" name="txtPassword" id="password" required placeholder="Password">
     <a href="#">Log in</a>
+    <button type="submit" class="btn-btnlogin"> Log in</button>
     <div id="remember-container">
       <input type="checkbox" id="checkbox-2-1" class="checkbox" checked="checked"/>
       <span id="remember">Remember me</span>

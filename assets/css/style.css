@@ -129,6 +129,18 @@ html {
     opacity: 0.7;
   }
   
+  .btn-btnlogin{
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    padding: 4px 8px;
+    background: rgba(107,255,3,0.3);
+  }
+
+  
+  .btn-btnlogin:hover{
+    opacity: 0.7;
+  }
+  
   #remember-container{
     position: relative;
     margin: -5px 20px;
