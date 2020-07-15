@@ -11,9 +11,9 @@ body{
   width: 100%;
 }
 .content{
-  width: 100%;
-  max-width: 600px;
-  padding: 20px;
+  flex: 1;
+  padding: 5px 10px;
+  margin: 0 auto;
 }
 .flex{
   display: flex;
@@ -38,8 +38,8 @@ select{
   margin: 5px auto;
 }
 .list{
-  padding: 10px;
-  margin: 10px;
+  padding: 5px;
+  margin: 0;
   list-style: none;
 }
 .list-items{
@@ -66,8 +66,12 @@ select{
   background: #ebebeb;
 }
 .content-primary{
-  background: #ffffff;
+  background: #333;
   border-radius: 8px;
+}
+.content-secondary{
+  background: #ffffff;
+  border-radius: 4px;
 }
 .input-primary,
 .select-primary{
@@ -94,6 +98,21 @@ select{
 .pointer{
   cursor: pointer;
 }
+.border{
+  border: 1px solid #f1f1f1;
+}
+.bt{
+  border-top: 1px solid #f1f1f1;
+}
+.br{
+  border-right: 1px solid #f1f1f1;
+}
+.bb{
+  border-bottom: 1px solid #f1f1f1;
+}
+.bl{
+  border-left: 1px solid #f1f1f1;
+}
 h1, h2, h3, h4, h5, h6{
   font-weight: 500;
   padding: 10px 5px;
@@ -119,5 +138,19 @@ td, th{
   text-align: center;
   vertical-align: top;
 }
+img{
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
 /* /.Skin */
 /* /.Base */
+
+.content-profile{
+  max-width: 700px;
+}
+.content-info{
+  margin-top: 20px;
+}
