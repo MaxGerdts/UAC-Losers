@@ -15,22 +15,22 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         $txtUser = validar_campo($_POST["txtUser"]);
         $txtPassword = validar_campo($_POST["txtPassword"]);
     
-            $resultado = array("status" => "true");
+            $result = array("status" => "true");
     
         if(ControllerUser::login($txtUser, $txtPassword)) {
-              return print(json_encode($resultado));
               $user = ControllerUser::gettingUser($txtUser, $txtPassword);
                  $_SESSION["user"] = array(
                      "id"          => $user->getId(),
                      "name"          => $user->getName(),
                      "user"          => $user->getUser(),
                      "email"          => $user->getEmail(),
-                     "privilegio"          => $user->getPrivilege(),
+                     "privilege"          => $user->getPrivilege(),
 
                  );
+                 return print(json_encode($result));
         }
     }
     
-}
-$resultado = array("status" => "false");
-return print(json_encode($resultado));
+} 
+$result = array("status" => "false");
+return print(json_encode($result));
