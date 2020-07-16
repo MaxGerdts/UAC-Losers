@@ -45,8 +45,8 @@ select{
 .list-items{
   padding: 10px;
 }
-.mw-700{
-  max-width: 700px;
+.mw-767{
+  max-width: 767px;
 }
 /* /.Structure */
 
@@ -160,4 +160,11 @@ img{
 }
 .content-info.show{
   display: block;
+}
+
+/* Medias queries */
+@media (max-width:767px){
+  .menu-profile{
+    flex-direction: column;
+  }
 }

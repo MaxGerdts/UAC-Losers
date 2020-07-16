@@ -19,11 +19,11 @@
         </div>
       </div>
       <div class="container">
-        <div class="content content-secondary mw-700">
+        <div class="content content-secondary mw-767">
           <img src="../assets/img/Lanhita.jpg" alt="">
           <p class="font-lg text-center">Lanita</p>
         </div>
-        <div class="content content-secondary mw-700 bt">
+        <div class="content content-secondary mw-767 bt">
           <ul class="list flex menu-profile">
             <li class="list-items pointer">Biografía</li>
             <li class="list-items pointer">Información</li>
@@ -34,16 +34,16 @@
         </div>
       </div>
       <div class="container">
-        <div class="content content-secondary mw-700 content-info">
-          Biografía
+        <div class="content content-secondary mw-767 content-info">
+          Me llamo lana y me gusta el sexo casual, si me gustas te culeo. Tengo 19 años y culeo desde los 14. Me gustan las vergas pequeñas y gruesas.
         </div>
-        <div class="content content-secondary mw-700 content-info">
-          Informacion
+        <div class="content content-secondary mw-767 content-info">
+          Soy de malambo y vivo con mis tres hijos, si te intereso llamame sin compromiso +57 304 3654831
         </div>
-        <div class="content content-secondary mw-700 content-info">
-          Packs
+        <div class="content content-secondary mw-767 content-info">
+          <img src="../assets/img/pack1.jpg" alt="">
         </div>
-        <div class="content content-secondary mw-700 content-info">
+        <div class="content content-secondary mw-767 content-info">
           Chats hots
         </div>
       </div>
