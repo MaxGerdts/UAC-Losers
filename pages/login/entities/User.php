@@ -7,7 +7,7 @@ class User{
     private $user;
     private $email;
     private $password;
-    private $privilge;
+    private $privilege;
     private $registation_date;
 
 	public function getId(){
@@ -50,11 +50,11 @@ class User{
 		$this->password = $password;
 	}
 
-	public function getPrivilge(){
-		return $this->privilge;
+	public function getPrivilege(){
+		return $this->privilege;
 	}
 
-	public function setPrivilge($privilge){
+	public function setPrivilege($privilge){
 		$this->privilge = $privilge;
 	}
 
