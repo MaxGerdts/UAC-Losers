@@ -58,12 +58,12 @@ class User{
 		$this->privilge = $privilge;
 	}
 
-	public function getRegistation_date(){
+	public function getRegistration_date(){
 		return $this->registation_date;
 	}
 
-	public function setRegistation_date($registation_date){
-		$this->registation_date = $registation_date;
+	public function setRegistration_date($registration_date){
+		$this->registation_date = $registration_date;
 	}
    
 }

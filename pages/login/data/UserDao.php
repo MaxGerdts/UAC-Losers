@@ -41,7 +41,7 @@ class UserDao extends Connection{
     }
 
       //Getting user Method (Login)
-      public static function getUser($user)
+      public static function gettingUser($user)
       {
            $query = "SELECT id,name,email,user,privilege,registration_date 
            FROM users WHERE user = :user AND password = :password";
@@ -62,7 +62,7 @@ class UserDao extends Connection{
             $user->setUser($rows["user"]);
             $user->setEmail($rows["email"]);
             $user->setPrivilege($rows["privilege"]);
-            $user->setRegistation_date($rows["registation_date"]);
+            $user->setRegistration_date($rows["registration_date"]);
 
             return $user;
       }

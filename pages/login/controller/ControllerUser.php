@@ -11,12 +11,12 @@ class ControllerUser{
         return UserDao::login($obj_user);
     }
 
-    public function getUser($user, $password){
+    public static function gettingUser($user, $password){
         $obj_user = new User;
         $obj_user->setUser($user);
         $obj_user->setPassword($password);
 
-        return UserDao::getUser($obj_user);
+        return UserDao::gettingUser($obj_user);
     }
 
 
