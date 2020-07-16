@@ -8,9 +8,9 @@
         </div>
         <div class="content">
           <ul class="flex list">
-            <li class="list-items"><a class="link-white" href="#">Inicio</a></li>
-            <li class="list-items"><a class="link-white" href="#">Descubre</a></li>
-            <li class="list-items"><a class="link-white" href="#">En vivo</a></li>
+            <li class="list-items list-items-white"><a class="link-white" href="#">Inicio</a></li>
+            <li class="list-items list-items-white"><a class="link-white" href="#">Descubre</a></li>
+            <li class="list-items list-items-white"><a class="link-white" href="#">En vivo</a></li>
           </ul>
 
         </div>
