@@ -1,16 +1,21 @@
 <?php 
 include("../view/partials/head.php");
 ?>
-<?php  session_start(); /*
+<?php 
+/*
+session_start();
+//Login Validation
 if(isset($_SESSION["user"])){
-        if($_SESSION["user"]["privilege"] == 2){
-            header("location:user.php");
+    //Type user validation
+        if($_SESSION["user"]["privilege"] == 1){
+            header("location:admin.php");
         }
 }
+// If isnt login redirecting you to login
 header("location:login.php");
-*/ 
-?>
+ */ ?>  
 <body>
+    <?php if(!isset($_SESSION["user"])) ?>
 <h1><strong>Bienvenido a la pagina de la arrechera</strong> 
 <?php echo $_SESSION["user"]["name"]; ?>
 </h1> 
