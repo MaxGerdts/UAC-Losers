@@ -2,46 +2,63 @@
 include("../view/partials/head.php");
 ?>
 <body>
-<div id="login-button">
-  <img src="https://dqcgrsy5v35b9.cloudfront.net/cruiseplanner/assets/img/icons/login-w-icon.png">
-  </img>
-</div>
-<div id="container">
-  <h1>Sign In</h1>
-  <span class="close-btn">
-      <!-- esto se va cambiar con una propia -->
-    <img src="https://cdn4.iconfinder.com/data/icons/miu/22/circle_close_delete_-128.png"></img>
-  </span>
-
-  <form id="loginForm" action="validateCode.php" method="POST">
-    <input type="text" name="txtUser" id="user" autofocus required placeholder="User">
-    <input type="password" name="txtPassword" id="password" required placeholder="Password">
-  <!-- <a type="submit" href="#">Log in</a>  -->
- <button type="submit" class="btn-btnlogin"> Log in</button> 
-    <div id="remember-container">
-      <input type="checkbox" id="checkbox-2-1" class="checkbox" checked="checked"/>
-      <span id="remember">Remember me</span>
-      <span id="forgotten">Forgotten password</span>
-    </div>
-</form>
-</div>
-
-<!-- Forgotten Password Container -->
-<div id="forgotten-container">
-   <h1>Forgotten</h1>
-  <span class="close-btn">
-    <img src="https://cdn4.iconfinder.com/data/icons/miu/22/circle_close_delete_-128.png"></img>
-  </span>
-
-  <form>
-    <input type="email" name="email" placeholder="E-mail">
-    <a href="#" class="orange-btn">Get new password</a>
+<div class="overlay">
+<!-- LOGN IN FORM by Omar Dsoky -->
+<form id="loginForm" action="validateCode.php" method="POST"> 
+   <!--   con = Container  for items in the form-->
+   <div class="con">
+   <!--     Start  header Content  -->
+   <header class="head-form">
+      <h2>Log In</h2>
+      <!--     A welcome message or an explanation of the login form -->
+      <p>login here using your username and password</p>
+   </header>
+   <!--     End  header Content  -->
+   <br>
+   <div class="field-set">
+     
+      <!--   user name -->
+         <span class="input-item">
+         <i class="fas fa-users"></i>
+         </span>
+        <!--   user name Input-->
+         <input class="form-input" type="text" name="txtUser" id="user" autofocus required placeholder="User">
+     
+      <br>
+     
+           <!--   Password -->
+     
+     
+      <!--   Password Input-->
+      <input class="form-input" type="password" name="txtPassword" id="password" required placeholder="Password">
+     
+      <br>
+<!--        buttons -->
+<!--      button LogIn -->
+      <button class="log-in" type="submit" class="btn-btnlogin"> Log In </button>
+   </div>
+  
+<!--   other buttons -->
+   <div class="other">
+<!--      Forgot Password button-->
+      <button class="btn submits frgt-pass">Forgot Password</button>
+<!--     Sign Up button -->
+      <button class="btn submits sign-up">Sign Up 
+<!--         Sign Up font icon -->
+      <i class="fa fa-user-plus" aria-hidden="true"></i>
+      </button>
+<!--      End Other the Division -->
+   </div>
+     
+<!--   End Conrainer  -->
+  </div>
+  
+  <!-- End Form -->
 </form>
 </div>
 <script  src="../../../assets/js/jquery-3.5.1.min.js"></script>
 <script  src="../../../assets/js//jquery-ui.min.js"></script>
 <script  src="../../../assets/js/overhang.min.js"></script>
-<script  src="../../../assets/js/javasp.js"></script>
 <script  src="../../../assets/js/app.js"></script>
 </body>
 
