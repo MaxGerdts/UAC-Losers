@@ -7,7 +7,7 @@ include("../view/partials/head.php");
   </img>
 </div>
 <div id="container">
-  <h1>Log In</h1>
+  <h1>Sign In</h1>
   <span class="close-btn">
       <!-- esto se va cambiar con una propia -->
     <img src="https://cdn4.iconfinder.com/data/icons/miu/22/circle_close_delete_-128.png"></img>
@@ -16,7 +16,7 @@ include("../view/partials/head.php");
   <form id="loginForm" action="validateCode.php" method="POST">
     <input type="text" name="txtUser" id="user" autofocus required placeholder="User">
     <input type="password" name="txtPassword" id="password" required placeholder="Password">
-   <a type="submit" href="#">Log in</a> 
+  <!-- <a type="submit" href="#">Log in</a>  -->
  <button type="submit" class="btn-btnlogin"> Log in</button> 
     <div id="remember-container">
       <input type="checkbox" id="checkbox-2-1" class="checkbox" checked="checked"/>
