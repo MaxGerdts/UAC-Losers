@@ -35,15 +35,15 @@ include("../view/partials/head.php");
       <br>
 <!--        buttons -->
 <!--      button LogIn -->
-      <button class="log-in" type="submit" class="btn-btnlogin"> Log In </button>
+      <button class="log-in" type="submit" class="btn-btnlogin" id="btnLogin"> Log In </button>
    </div>
   
 <!--   other buttons -->
    <div class="other">
 <!--      Forgot Password button-->
-      <button class="btn submits frgt-pass">Forgot Password</button>
+      <button href="" class="btn submits frgt-pass">Forgot Password</button>
 <!--     Sign Up button -->
-      <button class="btn submits sign-up">Sign Up 
+      <button href="" class="btn submits sign-up">Sign Up 
 <!--         Sign Up font icon -->
       <i class="fa fa-user-plus" aria-hidden="true"></i>
       </button>

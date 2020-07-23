@@ -16,7 +16,7 @@ header("location:login.php");
 </h1> 
 <p>Panel de control --- <span><?php echo $_SESSION["user"]["privilege"] == 1 ?
  'Admin' : 'Cliente'; ?> </span></p>
-    <a href="login.php">Cerrar sesión </a>
+    <a href="logout.php">Cerrar sesión </a>
 </div>
 <script  src="../../../assets/js/jquery-3.5.1.min.js"></script>
 <script  src="../../../assets/js//jquery-ui.min.js"></script>

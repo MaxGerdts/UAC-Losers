@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    $("#loginForm").bind("submit", function(){
+    $("#loginForm").bind("submit",  function(){
 
         $.ajax({
             type: $(this).attr("method"),
