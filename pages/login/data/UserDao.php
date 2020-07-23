@@ -68,4 +68,29 @@ class UserDao extends Connection{
       }
 
 
+      //Validation Method (Registration)
+    public static function registration($user)
+    {
+         $query = "INSERT INTO users (
+           name, email, user, password, privilege) VALUES 
+           (:name,:email,:user,:password,:privilege)";
+      
+      self::getConnection();
+
+      $result = self::$cnx->prepare($query);
+
+      $result->bindValue(":name", $user->getName());
+      $result->bindValue(":email", $user->getEmail());
+      $result->bindValue(":user", $user->getUser());
+      $result->bindValue(":password", $user->getPassword());
+      $result->bindValue(":privilige", $user->getPrivilege());
+
+          if($result->execute()) {
+            return true;
+          }
+
+          return false;
+
+  }
+
 }
