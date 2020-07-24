@@ -9,34 +9,37 @@ session_start();
 
 if($_SERVER["REQUEST_METHOD"] == "POST"){
     if(isset($_POST["txtName"]) && 
-    isset($_POST["txtUser"]) && 
     isset($_POST["txtEmail"]) && 
+    isset($_POST["txtUser"]) && 
     isset($_POST["txtPassword"])) {
 
         $txtName = validar_campo($_POST["txtName"]);
-        $txtUser = validar_campo($_POST["txtUser"]);
         $txtEmail = validar_campo($_POST["txtEmail"]);
+        $txtUser = validar_campo($_POST["txtUser"]);
         $txtPassword = validar_campo($_POST["txtPassword"]);
-        $txtPrivilege = 2;
+        $txtPrivilege = 1;
     
     
-        if(ControllerUser::registration($txtName, $txtUser, $txtEmail, $txtPassword, $txtPrivilege)) {
+        if(ControllerUser::registration($txtName,  $txtEmail, $txtUser, $txtPassword, $txtPrivilege)) {
                 $user = ControllerUser::gettingUser($txtUser, $txtPassword);
+                echo $txtPassword;
+                echo $txtUser;
+                echo $txtName;
+                echo $txtPrivilege;
                  $_SESSION["user"] = array(
                      "id"          => $user->getId(),
                      "name"          => $user->getName(),
                      "user"          => $user->getUser(),
-                     "email"          => $user->getEmail(),
+                     "email"          => $user->getEmail(),          
                      "privilege"          => $user->getPrivilege(),
-
+                    
                  );
-             
-
-                 header("location:admin.php");
+                
+              header("location:admin.php");
         }
     }
     
-} 
-    header("location:registration.php?error=1"); 
-
+} else{
+    header("location:register.php?error=1");
+}
 

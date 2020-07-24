@@ -19,13 +19,14 @@ class ControllerUser{
         return UserDao::gettingUser($obj_user);
     }
 
-    public static function registration($name, $user, $email, $password, $privilege){
+    public static function registration($name, $email, $user, $password, $privilege){
         $obj_user = new User;
         $obj_user->setName($name);
         $obj_user->setUser($user);
         $obj_user->setEmail($email);
-        $obj_user->setPassword($password);
         $obj_user->setPrivilege($privilege);
+        $obj_user->setPassword($password);
+
 
         return UserDao::registration($obj_user);
     }
