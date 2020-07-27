@@ -4,7 +4,7 @@ include("../view/partials/head.php");
 
 <body>
    <div class="overlay">
-      <!-- LOGN IN FORM by Omar Dsoky -->
+   
       <form id="loginForm" action="validateCode.php" method="POST">
          <!--   con = Container  for items in the form-->
          <div class="con">

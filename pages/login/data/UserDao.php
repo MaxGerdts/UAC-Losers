@@ -27,7 +27,7 @@ class UserDao extends Connection{
           //Indicate -- column and value --
             $result->bindValue(":user", $user->getUser());
             $result->bindValue(":password", $user->getPassword());
-
+       
           $result->execute();
 
           if ($result->rowCount() > 0){
