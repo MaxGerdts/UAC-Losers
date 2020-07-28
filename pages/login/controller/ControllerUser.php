@@ -30,4 +30,12 @@ class ControllerUser{
         return UserDao::registration($obj_user);
     }
 
+
+    public static function verifyEmail($email){
+        $obj_user = new User;
+        $obj_user->setEmail($email);
+
+        return UserDao::verifyEmail($obj_user);
+    }
+
 }

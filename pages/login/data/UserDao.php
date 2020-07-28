@@ -95,4 +95,27 @@ class UserDao extends Connection{
 
   }
 
+
+  public static function verifyEmail($user)
+  {
+       $query = "SELECT id, name, email FROM users WHERE email = :email";
+
+        self::getConnection();
+
+        $result = self::$cnx->prepare($query);
+        //Indicate -- column and value --
+
+          $result->bindValue(":email", $user->getEmail());
+
+        $result->execute();
+
+        $rows = $result->fetch();
+        $user = new User();
+        $user->setId($rows["id"]);
+        $user->setName($rows["name"]);
+        $user->setEmail($rows["email"]);
+
+
+        return $user;
+  }
 }

@@ -5,8 +5,7 @@ include("../view/partials/head.php");
 <body>
     <div class="overlay">
         <!-- LOGN IN FORM by Omar Dsoky -->
-        <form id="loginForm" action="validateCode.php" method="POST">
-            <!--   con = Container  for items in the form-->
+        <form action="forgetCode.php" method="POST" role="form">     <!--   con = Container  for items in the form-->
             <div class="con">
                 <!--     Start  header Content  -->
                 <header class="head-form">

@@ -1,49 +1,30 @@
-<?php include('../includes/head.php'); ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Porn Social</title>
+  <!--<link rel="icon" type="image/png" href="../assets/img/icons/logo.png">-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.min.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
 
   <body>
-    <div class="main">
-      <div class="container container-primary flex">
-        <div class="content">
-
+      <h2 class="title-packs">Packs</h2>
+      <div class="wrapper">
+        <div class="single-img">
+          <img alt="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRGOzzXtp7rqsmX59J233MMbykq9VwVE_d12w&usqp=CAU">
         </div>
-        <div class="content">
-          <ul class="flex list">
-            <li class="list-items list-items-white"><a class="link-white" href="#">Inicio</a></li>
-            <li class="list-items list-items-white"><a class="link-white" href="#">Descubre</a></li>
-            <li class="list-items list-items-white"><a class="link-white" href="#">En vivo</a></li>
-          </ul>
-
+        <div class="single-img">
+          <img alt="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTAAbWeAGebwu1zON62LDd-IMtU4wR-SG6TQg&usqp=CAU">
         </div>
-      </div>
-      <div class="container">
-        <div class="content content-white mw-767 br bl">
-          <img src="../assets/img/Lanhita.jpg" alt="">
-          <p class="font-lg text-center">Lanita</p>
+        <div class="single-img">
+          <img alt="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS-tRd6lagSZv2LEM2DTml6M5vhYmJ7qkPEWA&usqp=CAU">
         </div>
-        <div class="content content-primary mw-767">
-          <ul class="list flex menu-profile">
-            <li class="list-items list-items-white pointer">Biografía</li>
-            <li class="list-items list-items-white pointer">Información</li>
-            <li class="list-items list-items-white pointer">Packs</li>
-            <li class="list-items list-items-white pointer">Chats hots</li>
-            <li class="list-items list-items-white"><a class="link-white" href="#">Editar perfil</a></li>
-          </ul>
+        <div class="single-img">
+          <img alt="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTrO82xHkehpWAki1W91kHMG2ALNmOv1c7EqA&usqp=CAU">
         </div>
-      </div>
-      <div class="container">
-        <div class="content content-white mw-767 content-info border br-8">
-          Me llamo lana y me gusta el sexo casual, si me gustas te culeo. Tengo 19 años y culeo desde los 14. Me gustan las vergas pequeñas y gruesas.
-        </div>
-        <div class="content content-white mw-767 content-info border br-8">
-          Soy de malambo y vivo con mis tres hijos, si te intereso llamame sin compromiso +57 304 3654831
-        </div>
-        <div class="content content-white mw-767 content-info border br-8">
-          <img src="../assets/img/pack1.jpg" alt="">
-        </div>
-        <div class="content content-white mw-767 content-info border br-8">
-          Chats hots
-        </div>
-      </div>
     </div>
 
     <script src="../assets/js/jquery-3.5.1.min.js"></script>
