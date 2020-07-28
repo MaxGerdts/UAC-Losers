@@ -14,9 +14,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
         $txtUser = validar_campo($_POST["txtUser"]);
         $txtPassword = validar_campo($_POST["txtPassword"]);
-
+          
             $result = array("status" => "true");
-    
+              
         if(ControllerUser::login($txtUser, $txtPassword)) {
               $user = ControllerUser::gettingUser($txtUser, $txtPassword);
                  $_SESSION["user"] = array(

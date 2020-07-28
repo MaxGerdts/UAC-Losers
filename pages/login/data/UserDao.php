@@ -27,13 +27,15 @@ class UserDao extends Connection{
           //Indicate -- column and value --
             $result->bindValue(":user", $user->getUser());
             $result->bindValue(":password", $user->getPassword());
-       
-          $result->execute();
+            
 
+            $result->execute();
+        
           if ($result->rowCount() > 0){
               $rows = $result->fetch();
               if($rows["user"] == $user->getUser()
-              && $rows["password"] == $user->getPassword()) {
+              &&  $rows["password"] == $user->getPassword()) {
+            
                   return true;
               }
           }
