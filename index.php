@@ -19,9 +19,9 @@
       </button>
       <div class="collapse navbar-collapse justify-end" id="navbarSupportedContent">
         <ul class="navbar-nav">
-          <li><a class="font-secondary font-weight-bold text-uppercase pd-10" href="#">Inicio</a></li>
-          <li><a class="font-secondary font-weight-bold text-uppercase pd-10" href="pages/login/view/login.php">Iniciar sesión</a></li>
-          <li><a class="font-secondary font-weight-bold text-uppercase pd-10" href="pages/login/view/register.php">Registrarse</a></li>
+          <li><a class="link-secondary font-weight-bold text-uppercase pd-10" href="#">Inicio</a></li>
+          <li><a class="link-secondary font-weight-bold text-uppercase pd-10" href="pages/login.php">Iniciar sesión</a></li>
+          <li><a class="link-secondary font-weight-bold text-uppercase pd-10" href="pages/signin.php">Registrarse</a></li>
         </ul>
       </div>
     </div>
@@ -103,21 +103,21 @@
       <div class="content">
         <h2 class="font-quaternary font-weight-bold">Menu one</h2>
         <ul class="list">
-          <li><a class="font-secondary font-weight-bold text-uppercase" href="#">Home</a></li>
-          <li><a class="font-secondary font-weight-bold text-uppercase" href="#">About</a></li>
-          <li><a class="font-secondary font-weight-bold text-uppercase" href="#">Contact</a></li>
-          <li><a class="font-secondary font-weight-bold text-uppercase" href="#">Faq</a></li>
-          <li><a class="font-secondary font-weight-bold text-uppercase" href="#">Services</a></li>
+          <li><a class="link-secondary font-weight-bold text-uppercase" href="#">Home</a></li>
+          <li><a class="link-secondary font-weight-bold text-uppercase" href="#">About</a></li>
+          <li><a class="link-secondary font-weight-bold text-uppercase" href="#">Contact</a></li>
+          <li><a class="link-secondary font-weight-bold text-uppercase" href="#">Faq</a></li>
+          <li><a class="link-secondary font-weight-bold text-uppercase" href="#">Services</a></li>
         </ul>
       </div>
       <div class="content">
         <h2 class="font-quaternary font-weight-bold">Menu two</h2>
         <ul class="list">
-          <li><a class="font-secondary font-weight-bold text-uppercase" href="#">Home</a></li>
-          <li><a class="font-secondary font-weight-bold text-uppercase" href="#">About</a></li>
-          <li><a class="font-secondary font-weight-bold text-uppercase" href="#">Contact</a></li>
-          <li><a class="font-secondary font-weight-bold text-uppercase" href="#">FAQ</a></li>
-          <li><a class="font-secondary font-weight-bold text-uppercase" href="#">Services</a></li>
+          <li><a class="link-secondary font-weight-bold text-uppercase" href="#">Home</a></li>
+          <li><a class="link-secondary font-weight-bold text-uppercase" href="#">About</a></li>
+          <li><a class="link-secondary font-weight-bold text-uppercase" href="#">Contact</a></li>
+          <li><a class="link-secondary font-weight-bold text-uppercase" href="#">FAQ</a></li>
+          <li><a class="link-secondary font-weight-bold text-uppercase" href="#">Services</a></li>
         </ul>
       </div>
     </div>
